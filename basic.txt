@@ -1,0 +1,54 @@
+
+Firstly, to learn the basic things about the git hub repository download the git 
+link: https://git-scm.com/download/win
+when u visit this site download will be automatically generated.
+
+Then, create a folder in your desktop like "basic"
+and open this folder in 'Git Bash Here'.
+now you are able to learn git cli.
+
+type:
+ git --version > it shows ur git version
+ git init    > it shows the git repository in ur current folder means "basic"[if not any it shows - 
+cli:
+mdala@DESKTOP-125MBG8 MINGW64 ~/Desktop/Basic
+$ git init
+Initialized empty Git repository in C:/Users/mdala/Desktop/Basic/.git/
+]
+
+git status > it shows about branch master, no of commits, tracked and untracked files info.
+
+now let's create a file in basic folder:
+
+just using touch like ubuntu(debian)
+
+touch basic.txt > it creates a basic.txt file in that folder.
+To check about this folder just type
+git status > it shows the file info. in that folder (basic)
+cli:
+mdala@DESKTOP-125MBG8 MINGW64 ~/Desktop/Basic (master)
+$ touch basic.txt
+
+mdala@DESKTOP-125MBG8 MINGW64 ~/Desktop/Basic (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        basic.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+now to push this in the git hub do things things:
+
+type : git add . > it add all the files in that folder to track ( to push/commit)
+[if u want to do for a specific file then type that file name like :
+ git add basic.hmtl  ( here basic.html is a file )]
+
+now for commit first type:
+git commit -am 'basic'  [ basic is the folder name]
+
+now create a repository in a github file name as the folder name like 'basic'
+
